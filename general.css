@@ -1,0 +1,108 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  
+}
+
+.bg-dark {
+    background-color: transparent !important;
+}
+
+.navbar {
+    padding-top: 20px;
+    position: absolute;
+}
+
+
+@media only screen and (min-width: 768px){
+    .navbar {
+      width: auto;
+    }
+  }
+
+.nav-item a {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2em;
+  } 
+
+.navbar-brand a{
+    font-size: 2em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar-dark .navbar-brand {
+  color: black;
+}
+
+.navbar-nav > li{
+    padding-left:0px;
+    padding-right:0px;
+    margin-left:10px;
+    margin-right:10px;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: black;
+  }
+
+.navbar-brand {
+    padding-left: 20px;
+}
+
+
+
+/* footer */
+
+fa:hover {
+  opacity: 0.7;
+}
+
+.wrapper{
+  height: 100%
+}
+
+.footer-container {
+  background: #ffdb58;
+  color: white;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#social-media-icons {
+  padding-top: 30px;
+  margin: auto;
+  width: 50%;
+}
+
+.about-company i{
+    font-size: 60px;
+    width: 100px;
+    align-content: center;
+  }
+
+.about-company a{
+      color:white;
+      transition: color .2s;
+    }
+
+.about-company a:hover{
+  color:#4180CB
+}
+
+.location i{
+    font-size: 18px;
+  }
+
+.copyright p{
+  border-top:1px solid rgba(255,255,255,.1);
+  font-size: 1.2em;
+}
+
+.small, small {
+  font-size: 100%;
+  font-weight: 400;
+}
